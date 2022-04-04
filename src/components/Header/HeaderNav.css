@@ -1,0 +1,10 @@
+.header-nav {
+  background-color: blue;
+  padding: 20px 0;
+}
+.nav-link {
+  margin-right: 10px;
+  margin-left: 10px;
+  color: white;
+  text-decoration: underline;
+}
