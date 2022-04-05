@@ -9,7 +9,7 @@ const HeaderNav = () => {
         <Link className="nav-link" to="/home">
           Home
         </Link>
-        <Link className="nav-link" to="/review">
+        <Link className="nav-link" to="/reviews">
           Review
         </Link>
         <Link className="nav-link" to="/dashboard">

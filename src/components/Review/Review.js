@@ -1,6 +1,7 @@
 import React from 'react';
+import Reviews from '../Reviews/Reviews';
 
-const Review = () => {
+const Review = (props) => {
   return (
     <div>
       <h1>this is review</h1>
