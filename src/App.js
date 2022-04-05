@@ -10,7 +10,7 @@ import DashBoard from './components/DashBoard/DashBoard';
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <HeaderNav></HeaderNav>
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
