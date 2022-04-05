@@ -4,9 +4,9 @@ import './Home.css';
 const Home = () => {
   return (
     <div className="header">
-      <div>
+      <div className="header-title">
         <h1>Your next shoe</h1>
-        <h1>Your best shoe</h1>
+        <h1 className="sec-title">Your best shoe</h1>
         <p>This show is a showcase of the best shoes in the world.</p>
       </div>
 
