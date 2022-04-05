@@ -13,3 +13,17 @@
 .sec-title {
   color: yellowgreen;
 }
+
+.rev-btn {
+  margin-top: 50px;
+  text-transform: capitalize;
+  color: blue;
+  border: none;
+  background-color: aqua;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+.rev-link {
+  text-decoration: none;
+}
