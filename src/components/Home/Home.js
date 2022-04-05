@@ -7,9 +7,7 @@ const Home = () => {
       <div>
         <h1>Your next shoe</h1>
         <h1>Your best shoe</h1>
-        <p>
-          Lorem, ipsum dolor sit amet consectetur adipisicing elit. Sunt, sequi.
-        </p>
+        <p>This show is a showcase of the best shoes in the world.</p>
       </div>
 
       <div>

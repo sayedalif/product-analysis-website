@@ -20,7 +20,7 @@ const DashBoard = () => {
     fetch('data.json')
       .then((res) => res.json())
       .then((data) => setData(data));
-  }, []);
+  }, [data]);
 
   return (
     <div className="dashboard">
