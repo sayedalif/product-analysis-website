@@ -1,10 +1,8 @@
 import React from 'react';
-import Reviews from '../Reviews/Reviews';
 import './Review.css';
 
-const Review = ({ review }) => {
-  console.log(review);
-  const { name, reviewer, img, comment, ratings, ratingsCount } = review;
+const HomeReview = ({ homeReview }) => {
+  const { name, reviewer, img, comment, ratings, ratingsCount } = homeReview;
   return (
     <div className="product">
       <img src={img} alt="" />
@@ -19,4 +17,4 @@ const Review = ({ review }) => {
   );
 };
 
-export default Review;
+export default HomeReview;

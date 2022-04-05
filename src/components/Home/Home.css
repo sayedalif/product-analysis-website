@@ -15,6 +15,7 @@
 }
 
 .rev-btn {
+  position: absolute;
   margin-top: 50px;
   text-transform: capitalize;
   color: blue;
@@ -22,6 +23,8 @@
   background-color: aqua;
   padding: 5px;
   border-radius: 5px;
+  margin-bottom: 50px;
+  left: 40%;
 }
 
 .rev-link {

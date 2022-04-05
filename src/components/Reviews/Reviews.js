@@ -1,16 +1,13 @@
 import React, { useEffect, useState } from 'react';
+import CustomHook from '../ACustomHook/ACustomHook';
 import Review from '../Review/Review';
+import './Reviews.css';
 
 const Reviews = () => {
-  const [reviews, setReviews] = useState([]);
+  const [reviews, setReviews] = CustomHook();
 
-  useEffect(() => {
-    fetch('products.json')
-      .then((res) => res.json())
-      .then((data) => setReviews(data));
-  }, []);
   return (
-    <div>
+    <div className="reviews-container">
       {reviews.map((review) => (
         <Review key={review.id} review={review}></Review>
       ))}

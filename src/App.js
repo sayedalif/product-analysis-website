@@ -8,6 +8,7 @@ import About from './components/About/About';
 import NotFound from './components/NotFound/NotFound';
 import DashBoard from './components/DashBoard/DashBoard';
 import Reviews from './components/Reviews/Reviews';
+import HomeReviews from './components/Reviews/HomeReviews';
 
 function App() {
   return (

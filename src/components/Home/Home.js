@@ -2,6 +2,7 @@ import React from 'react';
 import shoe from './shoe.jpg';
 import './Home.css';
 import { Link } from 'react-router-dom';
+import HomeReviews from '../Reviews/HomeReviews';
 const Home = () => {
   return (
     <div>
@@ -16,6 +17,7 @@ const Home = () => {
           <img src={shoe} alt="" height={200} width={200} />
         </div>
       </div>
+      <HomeReviews></HomeReviews>
       <button className="rev-btn">
         <Link className="rev-link" to="/review">
           Show all Review
